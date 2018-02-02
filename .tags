@@ -1,0 +1,293 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR = $(CROSS_COMPILE)ar$/;"	m
+ARFLAGS	Makefile	/^ARFLAGS = cr$/;"	m
+ARM	debug.hpp	8;"	d
+AlarmInfo	vehDet.hpp	/^}AlarmInfo;$/;"	t	typeref:struct:cAlarmInfo
+AllocTrack	vehDet.cpp	/^void Track::AllocTrack(std::vector<cv::Rect> detedObjs)$/;"	f	class:Track
+ArithmeticBase	vehDet.hpp	/^        ArithmeticBase(){}$/;"	f	class:ArithmeticBase
+ArithmeticBase	vehDet.hpp	/^    class ArithmeticBase$/;"	c
+ArithmeticInterFace	vehDet.cpp	/^DetResultInfo vehDetect::ArithmeticInterFace(unsigned char* pYuvBuf, int height, int width, RecCarInfo* inPtr)$/;"	f	class:vehDetect
+ArithmeticInterFace	vehDet.hpp	/^        virtual DetResultInfo ArithmeticInterFace(unsigned char* pYuvBuf, int height, int width, RecCarInfo* inPtr){$/;"	f	class:ArithmeticBase
+ArithmeticType	vehDet.hpp	/^}ArithmeticType; \/\/算法类型$/;"	t	typeref:enum:__anon1
+BLOCKSIZE	debug.cpp	89;"	d	file:
+CAR_CASCADE1	vehicleCV.hpp	29;"	d
+CAR_CASCADE2	vehicleCV.hpp	30;"	d
+CAR_DET_1	vehDet.hpp	/^    CAR_DET_1 = 1,$/;"	e	enum:__anon1
+CAR_DET_2	vehDet.hpp	/^    CAR_DET_2 = 2,$/;"	e	enum:__anon1
+CAR_DET_3	vehDet.hpp	/^    CAR_DET_3 = 3,$/;"	e	enum:__anon1
+CAR_DET_4	vehDet.hpp	/^    CAR_DET_4 = 4,$/;"	e	enum:__anon1
+CC	Makefile	/^CC = $(CROSS_COMPILE)gcc$/;"	m
+CELLSIZE	debug.cpp	88;"	d	file:
+CFLAGS	Makefile	/^CFLAGS = -Wall$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -shared -Wall -fpic$/;"	m
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE = arm-linux-$/;"	m
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE =$/;"	m
+CXX	Makefile	/^CXX = $(CROSS_COMPILE)g++$/;"	m
+CalculateIntegralHOG	debug.cpp	/^    std::vector<Mat> CalculateIntegralHOG(Mat& srcMat)$/;"	f
+CarSpeed	vehDet.hpp	/^    unsigned char CarSpeed;$/;"	m	struct:cRecCarInfo
+CarStat	vehDet.hpp	/^    unsigned int CarStat;$/;"	m	struct:cRecCarInfo
+CarSteeringWheel	vehDet.hpp	/^    unsigned short CarSteeringWheel;$/;"	m	struct:cRecCarInfo
+CvDetection	vehicleCV.hpp	/^class CvDetection$/;"	c
+DEBUG	debug.hpp	7;"	d
+DEFS	Makefile	/^DEFS = $/;"	m
+DET0_COUNT_MAX	debug.hpp	29;"	d
+DetResultInfo	vehDet.hpp	/^}DetResultInfo;$/;"	t	typeref:struct:cDetResultInfo
+DetectVehicle	vehicleCV.cpp	/^vector<Rect> CvDetection::DetectVehicle(Mat imgInput, double scalseFactor)$/;"	f	class:CvDetection
+ExtractROI	vehDet.cpp	/^cv::Mat ROI::ExtractROI (cv::Mat inputImg, int x1, int y1, int x2, int y2, double r)$/;"	f	class:ROI
+FRAME_INTERVAL	debug.hpp	27;"	d
+FixScaleDet	vehicleCV.cpp	/^void VEHCV::FixScaleDet( const Mat& image, double factor, vector<Rect>& candidates)$/;"	f	class:VEHCV
+GTK_FLAGS	Makefile	/^GTK_FLAGS = `pkg-config --cflags --libs`$/;"	m
+GetDetResult	vehDet.cpp	/^void ROI::GetDetResult (vector<Rect> detedObjs)$/;"	f	class:ROI
+GetRectInfo	debug.cpp	/^    void GetRectInfo(cv::Mat imgDeted, cv::Mat imgOrig)$/;"	f
+GetSobel	debug.cpp	/^    cv::Mat GetSobel(cv::Mat srcGray)$/;"	f
+GetTimeTag	debug.cpp	/^long int GetTimeTag()$/;"	f
+GetWallTime	vehDet.cpp	/^long int GetWallTime()$/;"	f
+GroupRectangles	vehicleCV.cpp	/^void CvDetection::GroupRectangles(vector<Rect>& rectList, int groupThreshold, double eps)$/;"	f	class:CvDetection
+GroupRectangles	vehicleCV.cpp	/^void CvDetection::GroupRectangles(vector<Rect>& rectList, int groupThreshold, double eps, vector<int>* weights, vector<double>* levelWeights)$/;"	f	class:CvDetection
+Hight	vehDet.hpp	/^    int Hight;$/;"	m	struct:cRectInfo
+INCDIRS	Makefile	/^INCDIRS = .\/$/;"	m
+INCLUDE_OPENCV	Makefile	/^INCLUDE_OPENCV=\\$/;"	m
+InitKalman	vehDet.cpp	/^void Prediction::InitKalman()$/;"	f	class:Prediction
+InitParam	vehDet.cpp	/^void vehDetect::InitParam(){$/;"	f	class:vehDetect
+InitParam	vehDet.hpp	/^        virtual void InitParam(){}$/;"	f	class:ArithmeticBase
+LANE_DET	vehDet.hpp	/^    LANE_DET = 0,$/;"	e	enum:__anon1
+LDFLAGS	Makefile	/^LDFLAGS = $(LIBS) -pthread$/;"	m
+LINE_NUM_MAX	debug.hpp	12;"	d
+LOCAL_SHARED_LIBRARIES	Makefile	/^LOCAL_SHARED_LIBRARIES =\\$/;"	m
+Line	vehDet.hpp	/^    LineInfo Line[LINE_NUM_MAX];\/\/画线详细信息$/;"	m	struct:cPositionInfo
+LineInfo	vehDet.hpp	/^}LineInfo;$/;"	t	typeref:struct:cLineInfo
+LineNum	vehDet.hpp	/^    int LineNum;\/\/需要画线条数$/;"	m	struct:cPositionInfo
+LoadClassifier	vehicleCV.cpp	/^void CvDetection::LoadClassifier(string classifier)$/;"	f	class:CvDetection
+MAKE	Makefile	/^MAKE = make$/;"	m
+MAX_DET	vehDet.hpp	/^    MAX_DET = 5,$/;"	e	enum:__anon1
+MarrEdge	debug.cpp	/^    Mat MarrEdge(Mat src)$/;"	f
+MouseEvent	debug.cpp	/^    void MouseEvent(int event, int x, int y, int flags, void* data)$/;"	f
+MultiScaleDet	vehicleCV.cpp	/^void VEHCV::MultiScaleDet( const Mat& image, vector<Rect>& objects,$/;"	f	class:VEHCV
+NBINS	debug.cpp	86;"	d	file:
+NEW_DET_IGNORE	debug.hpp	30;"	d
+OBJ_C	Makefile	/^OBJ_C   := $(patsubst %.c,%.o,$(SRC_C))$/;"	m
+OBJ_CPP	Makefile	/^OBJ_CPP := $(patsubst %.cpp,%.o,$(SRC_CPP))$/;"	m
+OPENCV_INCLUDE_PATH	Makefile	/^OPENCV_INCLUDE_PATH=\/home\/wills\/opencv\/opencv-2.4.11\/modules$/;"	m
+OPENCV_ROOT_PATH	Makefile	/^OPENCV_ROOT_PATH=\/home\/wills\/opencv\/opencv-2.4.11$/;"	m
+P1	vehDet.hpp	/^    PointInfo P1;$/;"	m	struct:cLineInfo
+P2	vehDet.hpp	/^    PointInfo P2;$/;"	m	struct:cLineInfo
+PERSON_DET_1	vehDet.hpp	/^    PERSON_DET_1 = 5,$/;"	e	enum:__anon1
+PERSON_DET_2	vehDet.hpp	/^    PERSON_DET_2 = 6,$/;"	e	enum:__anon1
+PERSON_DET_3	vehDet.hpp	/^    PERSON_DET_3 = 7,$/;"	e	enum:__anon1
+PERSON_DET_4	vehDet.hpp	/^    PERSON_DET_4 = 8,$/;"	e	enum:__anon1
+PLIB	Makefile	/^PLIB=\/usr\/local\/opencv-2.4.11\/$/;"	m
+PLIB	Makefile	/^PLIB=\/usr\/local\/opencv_arm_2.4.11\/$/;"	m
+PREDICT_NUM	debug.hpp	9;"	d
+Partition	vehicleCV.hpp	/^Partition( const vector<_Tp>& _vec, vector<int>& labels,$/;"	f
+PointInfo	vehDet.hpp	/^}PointInfo;$/;"	t	typeref:struct:cPointInfo
+PositionInfo	vehDet.hpp	/^}PositionInfo;$/;"	t	typeref:struct:cPositionInfo
+Prediction	vehDet.hpp	/^class Prediction{$/;"	c
+ProcessThreadResult	vehDet.cpp	/^DetResultInfo* vehDetect::ProcessThreadResult(DetResultInfo* threadresult, int threadNum)$/;"	f	class:vehDetect
+ProcessThreadResult	vehDet.hpp	/^        virtual DetResultInfo* ProcessThreadResult(DetResultInfo* threadresult, int threadNum){$/;"	f	class:ArithmeticBase
+PushRect	vehDet.cpp	/^void ROI::PushRect(DetResultInfo& detRsStru, Rect detRsRect, double rectIdentity)$/;"	f	class:ROI
+PushRect	vehDet.cpp	/^void ROI::PushRect(DetResultInfo& detRsStru, std::vector<Rect>& detRsRect, double rectIdentity)$/;"	f	class:ROI
+R	debug.cpp	90;"	d	file:
+RECT_NUM_MAX	debug.hpp	13;"	d
+RM	Makefile	/^RM = -rm -rf$/;"	m
+ROI	vehDet.hpp	/^    ROI() {rectCount=0;};$/;"	f	class:ROI
+ROI	vehDet.hpp	/^class ROI{$/;"	c
+ROINUM_MAX	debug.hpp	28;"	d
+RecCarInfo	vehDet.hpp	/^}RecCarInfo;$/;"	t	typeref:struct:cRecCarInfo
+Rect	vehDet.hpp	/^    RectInfo Rect[RECT_NUM_MAX];\/\/画框详细信息$/;"	m	struct:cPositionInfo
+RectInfo	vehDet.hpp	/^}RectInfo;$/;"	t	typeref:struct:cRectInfo
+RectNum	vehDet.hpp	/^    int RectNum;\/\/需要画框个数$/;"	m	struct:cPositionInfo
+SHOWINFO	debug.hpp	20;"	d
+SRC_C	Makefile	/^SRC_C   := $(wildcard *.c)$/;"	m
+SRC_CPP	Makefile	/^SRC_CPP := $(wildcard *.cpp)$/;"	m
+STOP_FRAME_NUM	main.cpp	12;"	d	file:
+SameRects	vehicleCV.hpp	/^    SameRects(double _eps) : eps(_eps) {}$/;"	f	class:SameRects
+SameRects	vehicleCV.hpp	/^class CV_EXPORTS SameRects$/;"	c
+SaveSample	debug.cpp	/^    void SaveSample(char* path, cv::Mat originImg, cv::Rect r, cv::Size sampSize, bool doNameInfo)$/;"	f
+SetNewTrack	vehDet.cpp	/^void Prediction::SetNewTrack(cv::Rect r)$/;"	f	class:Prediction
+ShowHistYUV	debug.cpp	/^    void ShowHistYUV(cv::Mat testImg)$/;"	f
+ShowHistogram	debug.cpp	/^    void ShowHistogram(cv::Mat srcImage)$/;"	f
+ShowNewSobel	debug.cpp	/^    void ShowNewSobel(cv::Mat srcGray)$/;"	f
+StopDet	vehDet.cpp	/^void vehDetect::StopDet(){}$/;"	f	class:vehDetect
+StopDet	vehDet.hpp	/^        virtual void StopDet(){}$/;"	f	class:ArithmeticBase
+T1	debug.hpp	49;"	d
+T10	debug.hpp	55;"	d
+T11	debug.hpp	56;"	d
+T2	debug.hpp	50;"	d
+T4	debug.hpp	51;"	d
+T5	debug.hpp	52;"	d
+T7	debug.hpp	53;"	d
+T8	debug.hpp	54;"	d
+THETA	debug.cpp	87;"	d	file:
+TRACKER_NUM	debug.hpp	10;"	d
+TRACKER_NUM2	debug.hpp	11;"	d
+Top	vehDet.hpp	/^    PointInfo Top; \/\/顶点$/;"	m	struct:cRectInfo
+Track	vehDet.hpp	/^class Track{$/;"	c
+TrackRect	vehDet.cpp	/^cv::Rect Prediction::TrackRect(cv::Rect rectMeas, double rectTID, int predictMode)\/\/use pre-predit point as direct empty predict output$/;"	f	class:Prediction
+Tracker	vehDet.hpp	/^    Prediction Tracker[TRACKER_NUM2];$/;"	m	class:Track
+VEHCV	vehicleCV.hpp	/^class VEHCV : public CascadeClassifier$/;"	c
+VehCascade	vehicleCV.hpp	/^    VEHCV VehCascade;$/;"	m	class:CvDetection
+VehTrack	vehDet.hpp	/^    Track VehTrack; \/\/object for vehicle traction    $/;"	m	class:vehDetect
+Width	vehDet.hpp	/^    int Width;$/;"	m	struct:cRectInfo
+_DBUG_	debug.hpp	2;"	d
+_PEDDET_H_	vehDet.hpp	2;"	d
+_VEHICLECV_	vehicleCV.hpp	2;"	d
+alarm	vehDet.hpp	/^    AlarmInfo alarm;$/;"	m	struct:cDetResultInfo
+attr	vehDet.hpp	/^    int attr;   \/\/1为实线 0为虚线$/;"	m	struct:cLineInfo
+bkpDone	vehDet.hpp	/^    bool bkpDone;$/;"	m	class:vehDetect
+btmOffset	debug.cpp	/^    int btmOffset = 0;$/;"	v
+cAlarmInfo	vehDet.hpp	/^typedef struct cAlarmInfo{\/\/报警详细信息$/;"	s
+cDetResultInfo	vehDet.hpp	/^typedef struct cDetResultInfo{\/\/算法检测结果$/;"	s
+cLineInfo	vehDet.hpp	/^typedef struct cLineInfo{$/;"	s
+cPointInfo	vehDet.hpp	/^typedef struct cPointInfo{$/;"	s
+cPositionInfo	vehDet.hpp	/^typedef struct cPositionInfo{ \/\/位置信息$/;"	s
+cRecCarInfo	vehDet.hpp	/^typedef struct cRecCarInfo{$/;"	s
+cRectInfo	vehDet.hpp	/^typedef struct cRectInfo{$/;"	s
+cacHOGFeature	debug.cpp	/^    std::vector<Mat> cacHOGFeature(cv::Mat srcImage)$/;"	f
+cacHOGinCell	debug.cpp	/^    void cacHOGinCell(Mat& HOGCellMat, Rect roi, std::vector<Mat>& integrals)$/;"	f
+classifierLoadSuccess	vehicleCV.hpp	/^    bool classifierLoadSuccess;$/;"	m	class:CvDetection
+classifierName	debug.cpp	/^    std::string classifierName;$/;"	v
+colThdImg	main.cpp	/^int rowThdImg, colThdImg;$/;"	v
+cvVehDet	vehDet.hpp	/^    CvDetection cvVehDet; \/\/modified opencv classifier $/;"	m	class:vehDetect
+debugCount	debug.cpp	/^    int debugCount = 0;$/;"	v
+debugMark	debug.cpp	/^    bool debugMark = false;$/;"	v
+detect0Count	vehDet.hpp	/^    int detect0Count;$/;"	m	class:Prediction
+displaySegResult	debug.cpp	/^    Mat displaySegResult(Mat  segments, int numOfSegments, Mat  image)$/;"	f
+distance	vehDet.hpp	/^    float distance;$/;"	m	struct:cRectInfo
+distance	vehDet.hpp	/^    unsigned char distance;\/\/与目标相对距离$/;"	m	struct:cAlarmInfo
+doBlockResize	debug.cpp	/^    bool doBlockResize = false;$/;"	v
+doGetRoiSize	debug.cpp	/^    bool doGetRoiSize = false;$/;"	v
+doMoveWin	debug.cpp	/^    bool doMoveWin = true;$/;"	v
+doMutiScaleDet	debug.cpp	/^    bool doMutiScaleDet = false;$/;"	v
+doNMS	debug.cpp	/^    bool doNMS = true;$/;"	v
+doPause	debug.cpp	/^    bool doPause = false;$/;"	v
+doPredict	debug.cpp	/^    bool doPredict = true;$/;"	v
+doSetRoiSize	debug.cpp	/^    bool doSetRoiSize = false;$/;"	v
+doShowDet	debug.cpp	/^    bool doShowDet = false;$/;"	v
+doShowOri	debug.cpp	/^    bool doShowOri = true;$/;"	v
+doShowRoi	debug.cpp	/^    bool doShowRoi = !true;$/;"	v
+doShowRoiPre	debug.cpp	/^    bool doShowRoiPre = false;$/;"	v
+doShowSize	debug.cpp	/^    bool doShowSize = false;$/;"	v
+doShowTrack	debug.cpp	/^    bool doShowTrack = false;$/;"	v
+endPoint	debug.cpp	/^    cv::Point endPoint;$/;"	v
+eps	vehicleCV.hpp	/^    double eps;$/;"	m	class:SameRects
+frameTag	debug.cpp	/^long int frameTag = 0;$/;"	v
+frameYUVbkp	vehDet.hpp	/^    cv::Mat frameYUVbkp;$/;"	m	class:vehDetect
+getHog	debug.cpp	/^    cv::Mat getHog(Point pt,std::vector<Mat> &integrals)$/;"	f
+height	debug.cpp	/^    int height = 36; $/;"	v
+imgToSave	debug.cpp	/^    cv::Mat imgToSave; $/;"	v
+imgToShow	debug.cpp	/^    cv::Mat imgToShow;$/;"	v
+kalman	vehDet.hpp	/^    cv::KalmanFilter kalman;\/\/state(x,y,detaX,detaY)$/;"	m	class:Prediction
+laneDeparture	vehDet.hpp	/^    unsigned char laneDeparture;\/\/1向左偏离 0正常 2向右偏离$/;"	m	struct:cAlarmInfo
+leftOffset	debug.cpp	/^    int leftOffset = 0;$/;"	v
+main	main.cpp	/^int main(int argc,char** argv)$/;"	f
+measurement	vehDet.hpp	/^    cv::Mat measurement;\/\/measurement(x,y)$/;"	m	class:Prediction
+mutex	debug.cpp	/^    pthread_mutex_t mutex;$/;"	v
+nPre	vehDet.hpp	/^    int nPre;$/;"	m	class:Track
+operator ()	vehicleCV.hpp	/^    inline bool operator()(const Rect& r1, const Rect& r2) const$/;"	f	class:SameRects
+position	vehDet.hpp	/^    PositionInfo position;$/;"	m	struct:cDetResultInfo
+predictCount	vehDet.hpp	/^    int predictCount;$/;"	m	class:Track
+predictPosResult	vehDet.hpp	/^    DetResultInfo predictPosResult[PREDICT_NUM]; \/\/the prediction package to return$/;"	m	class:vehDetect
+process_noise	vehDet.hpp	/^    cv::Mat process_noise;$/;"	m	class:Prediction
+quit	debug.cpp	/^    bool quit = false;$/;"	v
+rPredict	vehDet.hpp	/^    cv::Rect rPredict[PREDICT_NUM][TRACKER_NUM];$/;"	m	class:Track
+ratioBtn	debug.cpp	/^    double ratioBtn = 1;$/;"	v
+rectCount	vehDet.hpp	/^    int rectCount;$/;"	m	class:ROI
+rectID1	debug.cpp	/^    double rectID1[50];$/;"	v
+rectID2	debug.cpp	/^    double rectID2[50];$/;"	v
+rectID3	debug.cpp	/^    double rectID3[50];$/;"	v
+rectID4	debug.cpp	/^    double rectID4[50];$/;"	v
+rectMeasPre	vehDet.hpp	/^    cv::Rect rectMeasPre;$/;"	m	class:Prediction
+rectPredict	vehDet.hpp	/^    cv::Rect rectPredict;$/;"	m	class:Prediction
+rectTarget	vehDet.hpp	/^    cv::Rect rectTarget;$/;"	m	class:Prediction
+results	vehDet.hpp	/^    std::vector<cv::Rect> results;$/;"	m	class:ROI
+returnRS1	main.cpp	/^DetResultInfo returnRS1, returnRS2, returnRS3, returnRS4;$/;"	v
+returnRS2	main.cpp	/^DetResultInfo returnRS1, returnRS2, returnRS3, returnRS4;$/;"	v
+returnRS3	main.cpp	/^DetResultInfo returnRS1, returnRS2, returnRS3, returnRS4;$/;"	v
+returnRS4	main.cpp	/^DetResultInfo returnRS1, returnRS2, returnRS3, returnRS4;$/;"	v
+rightDown	debug.cpp	/^    bool rightDown = false;$/;"	v
+rightOffset	debug.cpp	/^    int rightOffset = 0;$/;"	v
+roberts	debug.cpp	/^    cv::Mat roberts(cv::Mat srcImage)$/;"	f
+roiBtm	vehDet.hpp	/^    int roiBtm;$/;"	m	class:ROI
+roiImg	vehDet.hpp	/^    cv::Mat roiImg;$/;"	m	class:ROI
+roiLeft	vehDet.hpp	/^    int roiLeft;$/;"	m	class:ROI
+roiNum	debug.cpp	/^    int roiNum = -1;$/;"	v
+roiRight	vehDet.hpp	/^    int roiRight;$/;"	m	class:ROI
+roiTop	vehDet.hpp	/^    int roiTop;$/;"	m	class:ROI
+rowThdImg	main.cpp	/^int rowThdImg, colThdImg;$/;"	v
+run	debug.cpp	/^    bool run = false;$/;"	v
+sampNum	debug.cpp	/^    int sampNum = 0;$/;"	v
+scaleOffset	debug.cpp	/^    double scaleOffset = 0;$/;"	v
+scaleRate	vehDet.hpp	/^    double scaleRate;$/;"	m	class:ROI
+scaleRatio	vehDet.hpp	/^    double scaleRatio;$/;"	m	class:ROI
+scaledHeight	vehDet.hpp	/^    int scaledHeight;$/;"	m	class:ROI
+scaledPos	debug.cpp	/^    int scaledPos = 0;$/;"	v
+scaledPosStep	debug.cpp	/^    int scaledPosStep = 0;$/;"	v
+scaledWidth	vehDet.hpp	/^    int scaledWidth;$/;"	m	class:ROI
+segMerge	debug.cpp	/^    void segMerge(Mat & image, Mat & segments, int & numSeg)$/;"	f
+selectObject	debug.cpp	/^    bool selectObject = false;$/;"	v
+selection	debug.cpp	/^    cv::Rect selection=Rect(0,0,0,0); $/;"	v
+skipRsNum	debug.cpp	/^    int skipRsNum = 0;$/;"	v
+startPoint	debug.cpp	/^    cv::Point startPoint;$/;"	v
+statePt	vehDet.hpp	/^    cv::Point statePt[PREDICT_NUM][TRACKER_NUM];$/;"	m	class:Track
+stepSize	vehDet.hpp	/^    int stepSize;$/;"	m	class:ROI
+suppression	vehDet.hpp	/^    unsigned char suppression;\/\/抑制状态 0：正常 1：抑制$/;"	m	struct:cAlarmInfo
+syncEnd1	main.cpp	/^sem_t syncEnd1, syncEnd2, syncEnd3, syncEnd4;$/;"	v
+syncEnd2	main.cpp	/^sem_t syncEnd1, syncEnd2, syncEnd3, syncEnd4;$/;"	v
+syncEnd3	main.cpp	/^sem_t syncEnd1, syncEnd2, syncEnd3, syncEnd4;$/;"	v
+syncEnd4	main.cpp	/^sem_t syncEnd1, syncEnd2, syncEnd3, syncEnd4;$/;"	v
+syncMes1	main.cpp	/^sem_t syncMes1, syncMes2, syncMes3, syncMes4;$/;"	v
+syncMes2	main.cpp	/^sem_t syncMes1, syncMes2, syncMes3, syncMes4;$/;"	v
+syncMes3	main.cpp	/^sem_t syncMes1, syncMes2, syncMes3, syncMes4;$/;"	v
+syncMes4	main.cpp	/^sem_t syncMes1, syncMes2, syncMes3, syncMes4;$/;"	v
+sysstat	vehDet.hpp	/^    unsigned char sysstat;\/\/系统状态 0:正常 1：失效 故障$/;"	m	struct:cAlarmInfo
+target	Makefile	/^target = detect.exe$/;"	m
+target	Makefile	/^target = libvehDet.so$/;"	m
+targetspeed	vehDet.hpp	/^    unsigned char targetspeed;\/\/目标速度$/;"	m	struct:cAlarmInfo
+threadDet1	main.cpp	/^void *threadDet1(void *arg){$/;"	f
+threadDet2	main.cpp	/^void *threadDet2(void *arg){$/;"	f
+threadDet3	main.cpp	/^void *threadDet3(void *arg){$/;"	f
+threadDet4	main.cpp	/^void *threadDet4(void *arg){$/;"	f
+threadImg1	main.cpp	/^unsigned char *threadImg1, *threadImg2, *threadImg3, *threadImg4;$/;"	v
+threadImg2	main.cpp	/^unsigned char *threadImg1, *threadImg2, *threadImg3, *threadImg4;$/;"	v
+threadImg3	main.cpp	/^unsigned char *threadImg1, *threadImg2, *threadImg3, *threadImg4;$/;"	v
+threadImg4	main.cpp	/^unsigned char *threadImg1, *threadImg2, *threadImg3, *threadImg4;$/;"	v
+threadTag	vehDet.hpp	/^    int threadTag; \/\/indicate different thread$/;"	m	class:vehDetect
+time	vehDet.hpp	/^    unsigned char time; \/\/剩余碰撞时间$/;"	m	struct:cAlarmInfo
+timeTag1	debug.cpp	/^long int timeTag1 = 0;$/;"	v
+timeTag10	debug.cpp	/^long int timeTag10 = 0;$/;"	v
+timeTag11	debug.cpp	/^long int timeTag11 = 0;$/;"	v
+timeTag12	debug.cpp	/^long int timeTag12 = 0;$/;"	v
+timeTag2	debug.cpp	/^long int timeTag2 = 0;$/;"	v
+timeTag3	debug.cpp	/^long int timeTag3 = 0;$/;"	v
+timeTag4	debug.cpp	/^long int timeTag4 = 0;$/;"	v
+timeTag5	debug.cpp	/^long int timeTag5 = 0;$/;"	v
+timeTag6	debug.cpp	/^long int timeTag6 = 0;$/;"	v
+timeTag7	debug.cpp	/^long int timeTag7 = 0;$/;"	v
+timeTag8	debug.cpp	/^long int timeTag8 = 0;$/;"	v
+timeTag9	debug.cpp	/^long int timeTag9 = 0;$/;"	v
+timeTagPre	vehDet.hpp	/^    long int timeTagPre;$/;"	m	class:vehDetect
+topOffset	debug.cpp	/^    int topOffset = 0;$/;"	v
+trackCount	vehDet.hpp	/^    int trackCount;$/;"	m	class:Track
+trackID	vehDet.hpp	/^    int trackID; \/\/indicate the number to count for no dection $/;"	m	class:Prediction
+type	vehDet.hpp	/^    ArithmeticType type;$/;"	m	struct:cDetResultInfo
+vehDet1	main.cpp	/^vehDetect vehDet1, vehDet2, vehDet3, vehDet4;$/;"	v
+vehDet2	main.cpp	/^vehDetect vehDet1, vehDet2, vehDet3, vehDet4;$/;"	v
+vehDet3	main.cpp	/^vehDetect vehDet1, vehDet2, vehDet3, vehDet4;$/;"	v
+vehDet4	main.cpp	/^vehDetect vehDet1, vehDet2, vehDet3, vehDet4;$/;"	v
+vehDetect	vehDet.cpp	/^    vehDetect::vehDetect(int t)$/;"	f	class:vehDetect
+vehDetect	vehDet.hpp	/^class vehDetect : public ArithmeticBase$/;"	c
+version	vehDet.cpp	/^char version[] = "1.33"; \/\/\/CES excibition2$/;"	v
+watershedSegment	debug.cpp	/^    Mat watershedSegment(Mat & image, int & noOfSegments)$/;"	f
+width	debug.cpp	/^    int width = 36;$/;"	v
+winNum	vehDet.hpp	/^    int winNum;$/;"	m	class:ROI
+winPosLeft	vehDet.hpp	/^    int winPosLeft;$/;"	m	class:ROI
+winPosTop	vehDet.hpp	/^    int winPosTop;$/;"	m	class:ROI
+winTitle	vehDet.hpp	/^    char winTitle[50];$/;"	m	class:ROI
+x	vehDet.hpp	/^    int x;$/;"	m	struct:cPointInfo
+y	vehDet.hpp	/^    int y;$/;"	m	struct:cPointInfo
+~ArithmeticBase	vehDet.hpp	/^        virtual ~ArithmeticBase(){}$/;"	f	class:ArithmeticBase
