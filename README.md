@@ -2,11 +2,12 @@
 a real-time vehicle detecting program
 
 Hog + Adaboost
-![image](https://github.com/wills2133/vehicleDet/blob/master/recognition.JPG)
+<img src="https://github.com/wills2133/vehicleDet/blob/master/recognition.JPG" width="320" height="160">
+<br/>
 
 Multitrack
-![image](https://github.com/wills2133/vehicleDet/blob/master/multi-tracking.JPG)
-
+<img src="https://github.com/wills2133/vehicleDet/blob/master/multi-tracking.JPG" width="320" height="160">
+<br/>
 
 ### Prerequisites
 
