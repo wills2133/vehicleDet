@@ -3,6 +3,7 @@ a real-time vehicle detecting program
 
 Hog + Adaboost
 
+
 Multitrack
 
 ### Prerequisites
@@ -21,10 +22,30 @@ Makefile in Linux
 ~$ vehDet ../test_video.avi -v 'choose a model.xml'
 ```
 #degub control
-End with an example of getting some data out of the system or using it for a little demo
 
 ```
-Give an example
+///////////////////////////////////
+//
+//      key function:
+//
+// o/p: om/off capture frame
+// v: show original frame
+// f: show current det result
+// w s, d c, z x, e r: adjust margin
+// u j h k: adjust roi positon
+// y i: change sacel size
+// b: process the same frame
+// n: normally detect
+// sapce: pause/next fame
+// t: show track
+// g: skip processing/do not skip
+// 0-9: show different roi
+// a: do NMS
+// m: auto/manually move 
+// q: quit
+//
+///////////////////////////////////
+
 ```
 
 ## Authors
