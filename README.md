@@ -21,10 +21,10 @@ Makefile in Linux
 
 ### How to run
 
-@your_linux_dir:~$ vehDet 'video dir' -v 'choose a model.xml'20160306.xml
+@your_linux_dir:~$ ./detect.exe 'video dir' -v 'choose a model.xml'20160306.xml
 
 ```
-~$ vehDet ../test_video.avi -v 'choose a model.xml'
+~$ ./detect.exe ../test_video.avi -v 'choose a model.xml'
 ```
 #degub control
 
